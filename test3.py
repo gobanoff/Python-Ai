@@ -65,3 +65,36 @@ print(np.max(arr))  # Максимум: 50
 
 temps = np.array([25.3, 26.1, 24.8, 27.5, 28.0, 29.3, 26.7])
 print(f"Средняя температура: {np.mean(temps)}°C")  #  26.814285714285713°C
+
+
+# Цикл for
+for i in range(5):
+    print(i)  # Выведет 0 1 2 3 4
+
+# Цикл while
+x = 5
+while x > 0:
+    print(x)
+    x -= 1
+    
+    
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Анна"))  # Output: Hello, Анна!
+
+
+with open("example.txt", "w") as file:
+    file.write("Hello, Python!")
+
+
+    
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+
+import requests
+
+response = requests.get("https://api.github.com")
+print(response.json())  # Output JSON
