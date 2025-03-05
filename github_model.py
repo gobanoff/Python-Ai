@@ -18,7 +18,7 @@ response = client.chat.completions.create(
         },
         {
             "role": "user",
-            "content": "What is the capital of Lithuania,Australia,Russia,France,Germany,England,UK,Great Britain?", 
+            "content": "What is the capital of Lithuania,Australia,Russia,France,Germany,England,UK,Great Britain and who is the winner of UEFA champions league?", 
         }
     ],
     model="gpt-4o",
@@ -45,7 +45,10 @@ Here is the list of countries and their respective capitals:
 Great Britain and Northern Ireland, but the capital remains London.
 
 
+### **UEFA Champions League Winner:**
+who defeated Inter Milan in the final.
 
+For information beyond 2023, let me know so I can help clarify further!
 
 
 
